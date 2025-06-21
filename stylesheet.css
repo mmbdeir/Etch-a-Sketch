@@ -1,0 +1,25 @@
+#container {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.boxes {
+  border: 2px solid black;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: navy;
+}
+
+#screen {
+  background-color: grey;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
