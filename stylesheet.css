@@ -2,6 +2,9 @@
   margin: auto;
   display: flex;
   flex-flow: row wrap;
+  width: 544px;
+  /* 544-480 */
+  /* width: 544px; */
 }
 
 .boxes {
@@ -18,8 +21,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 body {
   margin: 0;
+}
+
+#button {
+  width: 200px;
+  height: 30px;
+  background-color: yellow;
+  margin-top: 100px;
 }
